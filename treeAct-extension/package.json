@@ -9,15 +9,23 @@
     "compile": "webpack --mode production",
     "develop": "webpack --mode development",
     "lint": "eslint . --ext .ts,.tsx",
-    "watch": "webpack --mode development --watch"
+    "watch": "webpack --mode development --watch",
+    "test": "jest"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
     "@types/node": "^15.0.2",
     "@types/vscode": "^1.55.0",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
+    "babel-jest": "^27.0.2",
     "eslint": "^7.25.0",
+    "jest": "^27.0.4",
     "ts-loader": "^9.1.2",
+    "typescript": "^4.3.2",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.7.0"
   },
