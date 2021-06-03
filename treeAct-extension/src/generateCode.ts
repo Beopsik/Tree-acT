@@ -189,5 +189,7 @@ export const run = async (message: MessageData, dirPath: string) => {
         }, 500);
       }
     }
+
+    return "DONE";
   }
 };
